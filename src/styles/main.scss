@@ -1,0 +1,45 @@
+@import '~bootstrap/dist/css/bootstrap';
+
+@import './utils.scss';
+
+html {
+  body {
+    //overflow:hidden;
+    height: 100%;
+    div#app{
+      height: 100%;
+      .main-wrapper{
+        height: 100%;
+        margin-bottom: 5rem;
+      }
+    }
+        * {
+            &:focus {outline: none!important;}
+        }
+    }
+
+    b {
+        font-weight: 700;
+    }
+
+    strong {
+        font-weight: 500;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
+
+.flex-stretch {flex-grow: 1;}
+
+input {
+    &:focus {
+        outline: none;
+    }
+}
+
+
+.wrapper {
+    overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.fieldTitle{
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 16px;
+  span{
+    color:red;
+  }
+}
+.errorMsg{
+  font-weight: lighter;
+  font-size: 14px;
+  color:red;
+  word-wrap: break-word;
+  width:inherit;
+}
+.field{
+  width: 100%;
+}

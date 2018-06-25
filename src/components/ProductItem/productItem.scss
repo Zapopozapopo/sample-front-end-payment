@@ -1,0 +1,13 @@
+.product-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+  .title{
+    margin-right: 2em;
+  }
+  p{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}

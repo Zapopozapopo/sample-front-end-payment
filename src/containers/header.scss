@@ -1,0 +1,16 @@
+.circle{
+  position: absolute;
+  top: 12px;
+  color: white;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 3px 3px 2px #888888;
+}
